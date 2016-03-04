@@ -1,0 +1,198 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".fragment.SearchFragment">
+
+        <LinearLayout
+            android:id="@+id/detailsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+
+            <!-- Calories -->
+            <TextView
+                style="@style/FoodNutrition.General.Serving"
+                android:id="@+id/calories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="200 cals"/>
+
+
+            <!-- Serving -->
+            <TextView
+                style="@style/FoodNutrition.General.Serving"
+                android:id="@+id/serving"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="1 portion"/>
+
+        </LinearLayout>
+
+        <!-- Divider -->
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layerType="software"
+            android:src="@drawable/divider_horizontal_type_normal"
+            />
+
+        <!-- Protein -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                style="@style/FoodNutrition.Category.Value"
+                android:id="@+id/proteinValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="11g"/>
+
+            <TextView
+                style="@style/FoodNutrition.Category.Label"
+                android:id="@+id/proteinLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/proteinValue"
+                android:text="Protein"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/proteinContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <!-- Divider -->
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layerType="software"
+            android:src="@drawable/divider_horizontal_type_normal"
+            />
+
+        <!-- Carbs -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                style="@style/FoodNutrition.Category.Value"
+                android:id="@+id/carbValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="17g"/>
+
+            <TextView
+                style="@style/FoodNutrition.Category.Label"
+                android:id="@+id/carbLabel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/carbValue"
+                android:text="Carbs"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/carbsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <!-- Divider -->
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layerType="software"
+            android:src="@drawable/divider_horizontal_type_normal"
+            />
+
+        <!-- Fat -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                style="@style/FoodNutrition.Category.Value"
+                android:id="@+id/fatValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="11g"/>
+
+            <TextView
+                style="@style/FoodNutrition.Category.Label"
+                android:id="@+id/fatLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/fatValue"
+                android:text="Fat"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/fatContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <!-- Divider -->
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layerType="software"
+            android:src="@drawable/divider_horizontal_type_normal"
+            />
+
+        <!-- Other -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                style="@style/FoodNutrition.Category.Label"
+                android:id="@+id/otherLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Other"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/otherContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <!-- Divider -->
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layerType="software"
+            android:src="@drawable/divider_horizontal_type_normal"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

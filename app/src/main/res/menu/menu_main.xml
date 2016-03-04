@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".activity.MainActivity">
+    <item
+        android:id="@+id/action_stored_food"
+        android:orderInCategory="1"
+        android:icon="@drawable/ico_stored_food"
+        android:title="Stored Food"
+        app:showAsAction="always"/>
+</menu>

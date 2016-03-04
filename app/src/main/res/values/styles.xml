@@ -1,0 +1,80 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- Food Row Style -->
+    <style name="FoodRow"/>
+
+    <style name="FoodRow.Title">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FoodRow.Details">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FoodRow.Category">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Food Search -->
+    <style name="FoodSearch"/>
+
+    <style name="FoodSearch.Title">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorHint">#999999</item>
+    </style>
+
+    <!-- Food Nutritions -->
+    <style name="FoodNutrition"/>
+
+    <style name="FoodNutrition.General">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FoodNutrition.General.Title">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="FoodNutrition.General.Serving">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="FoodNutrition.Category">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FoodNutrition.Category.Label"/>
+
+    <style name="FoodNutrition.Category.Value"/>
+
+    <style name="FoodNutrition.CategoryItem">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="FoodNutrition.CategoryItem.Label"/>
+
+    <style name="FoodNutrition.CategoryItem.Value"/>
+
+</resources>
