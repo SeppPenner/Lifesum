@@ -1,13 +1,13 @@
 # Lifesum
 Sample project using Lifesum's api for searching and storing food suggestions
 
-#Libraries Used
+## Libraries Used
 - okhttp from square, http client - http://square.github.io/okhttp/
 - greenDao from greenRobot, ORM - http://greenrobot.org/greendao/
 - otto from square, event bus - http://square.github.io/otto/
 - icons from nucleoapp - https://nucleoapp.com/
 
-#Project Structure
+## Project Structure
 - *app* - The android application itself
 - *lifesumdaogenerator* - A Java project to generate the data model, dao for database
 
